@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/all.css" />
     <style>
+      @font-face {
+        font-family: LGEIText;
+        src: url(./webfonts/LGEIText-Regular.1dc0b368.woff);
+      }
       * {
         margin: 0;
         padding: 0;
@@ -19,12 +24,31 @@
       img {
         width: 544px;
         height: 360px;
+        border-radius: 5%;
       }
       .home img {
         float: left;
       }
       .office img {
         float: left;
+      }
+
+      h1 {
+        margin-bottom: 10px;
+        font-family: LGEIText;
+        font-size: 40px;
+      }
+      h4 {
+        font-family: LGEIText;
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+
+      p {
+        color: #949496;
+        font-family: LGEIText;
+        font-size: 20px;
+        line-height: 24px;
       }
 
       .con1,
@@ -37,6 +61,14 @@
       a {
         position: absolute;
         margin: 50px 0;
+        text-decoration: none;
+        font-family: LGEIText;
+        font-size: 16px;
+        font-weight: bold;
+        color: #4865ff;
+      }
+      a:hover {
+        text-decoration: underline;
       }
       .Building img {
         float: right;
@@ -47,6 +79,10 @@
         width: 50%;
         margin: 50px 0;
         position: relative;
+      }
+
+      a i {
+        margin-left: 10px;
       }
     </style>
   </head>
@@ -71,7 +107,7 @@
         <p>
           사용자가 어디에 있든 보다 나은 스마트한 라이프스타일을 경험해 보세요.
         </p>
-        <a href="#">자세히보기</a>
+        <a href="#">자세히보기<i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
 
@@ -94,7 +130,7 @@
           기능들을<br />
           제공합니다.
         </p>
-        <a href="#">자세히보기</a>
+        <a href="#">자세히보기<i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
 
@@ -116,7 +152,7 @@
           있도록 제품 제어를 위한 다양한 기능을 제공합니다.
         </p>
 
-        <a href="#">자세히보기</a>
+        <a href="#"> 자세히보기 <i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
   </body>
