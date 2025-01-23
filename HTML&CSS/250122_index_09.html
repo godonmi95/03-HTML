@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 956px;
+        font-size: 0;
+        margin: 0 auto;
+        background-color: red;
+      }
+      .index {
+        position: relative;
+      }
+      .index p:nth-child(1) {
+        width: 956px;
+      }
+      .index p:nth-child(2) {
+        background-image: url(./images/index_pattern.gif);
+      }
+      .con {
+        position: relative;
+        overflow: hidden;
+      }
+      .con p:nth-child(2) {
+        position: absolute;
+        left: 450px;
+        top: 0;
+      }
+      .foot {
+        width: 956px;
+        height: 100px;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="index">
+      <p><img src="./images/index_top.gif" alt="" /></p>
+      <p><img src="./images/index_pattern.gif" alt="" /></p>
+      <div class="con">
+        <p><img src="./images/index_main_01.gif" alt="" /></p>
+        <p><img src="./images/index_main_02.gif" alt="" /></p>
+      </div>
+      <p class="foot"><img src="./images/copyright.gif" alt="" /></p>
+    </div>
+  </body>
+</html>

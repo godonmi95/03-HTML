@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{margin: 0;padding: 0;}
+    body > div {
+        width: 1200px;
+        margin: 0 auto;
+       }
+    .con1 p{
+      width: 1200px;
+      height: 100px;
+      background-color: red;}
+      .con2 p{
+      width: 1200px;
+      height: 100px;
+      background-color: blue;}
+      
+      .con3 p:nth-child(1){width: 20%; height: 500px; background-color: green;float: left}
+      .con3 p:nth-child(2){width: 70%; height: 500px; background-color: pink; float: left}
+      .con3 p:nth-child(3){width: 10%; height: 500px; background-color: green; float: right}
+      
+      .con4 p{
+      width: 1200px;
+      height: 100px;
+      background-color: blue;
+      clear :left;}
+
+  </style>
+</head>
+<body>
+  <div class="all">
+    
+    <div class="con1">
+      <p>가로크기 1200px 세로크기 100px</p>
+    </div>
+
+    <div class="con2"><p>가로크기 1200px 세로크기 100px</p></div>
+    
+    <div class="con3">
+      <p>가로크기 20% 세로크기 500px</p>
+      <p>가로크기 70% 세로크기 500px</p>
+      <p>가로크기 10% 세로크기 500px</p>
+    </div>
+    <div class="con4"><p>가로크기 1200px 세로크기 100px</p></div>
+  </div>
+ 
+</body>
+</html>
